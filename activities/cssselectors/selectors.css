@@ -1,0 +1,13 @@
+body {
+    font-family: 'Times New Roman'; Times, serif; color:blue
+}
+
+#first {
+    color: blueviolet;
+}
+.second {
+    color:blue; font-size: 12pt;
+}
+.bolder {
+ color:brown
+}
