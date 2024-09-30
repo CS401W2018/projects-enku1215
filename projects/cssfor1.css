@@ -1,0 +1,27 @@
+body{
+    color: cornflowerblue; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 14pt; background-color:black;
+}
+#first{
+    color:deeppink;
+}
+.second{
+    color:blue; font-size:medium;
+}
+.third{
+    color:deeppink;
+}
+.forth {
+    color:whitesmoke;
+}
+.fifth{
+    color: blue;
+}
+.six{
+    color:whitesmoke; font-size:smaller;
+}
+.seven{
+    font-family:initial;
+}
+.eight{
+    font-size: 10pt;
+}
