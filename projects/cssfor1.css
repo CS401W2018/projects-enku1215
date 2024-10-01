@@ -5,20 +5,23 @@ body{
     color:deeppink;
 }
 .second{
-    color:blue; font-size:medium;
+    color:cornflowerblue; font-size:medium;
 }
 .third{
     color:deeppink;
 }
 .forth {
-    color:cornflowerblue;
+    color:deeppink;
 }
 .six{
-    color:whitesmoke; font-size:smaller;
+    color:darkgrey; font-size:smaller;
 }
 .seven{
     font-family:initial;
 }
 .eight{
     font-size: 10pt;
+}
+.nine{
+    color:darkgray
 }
