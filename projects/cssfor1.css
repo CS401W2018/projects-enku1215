@@ -1,5 +1,5 @@
 body{
-    color: cornflowerblue; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 14pt; background-color:black;
+    color: whitesmoke; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 14pt; background-color:black;
 }
 #first{
     color:deeppink;
@@ -11,10 +11,7 @@ body{
     color:deeppink;
 }
 .forth {
-    color:whitesmoke;
-}
-.fifth{
-    color: blue;
+    color:cornflowerblue;
 }
 .six{
     color:whitesmoke; font-size:smaller;
