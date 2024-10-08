@@ -1,10 +1,24 @@
 body{
-   font-family: Arial, Helvetica, sans-serif; 
-   background-image: url(pcc.jpg)
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:black;
+   background-image: url(sandy.jpg);
+   background-color:beige;
+   background-position: left;
+    /* background-repeat: no-repeat; */
+   
 }
 #one{
    color:black
 }
 .second{
-   color: blue;
+   color:aliceblue;
+}
+main.two{
+   background-image:url("pcc.jpg");
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: 300px 200px;
+}
+.three{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
