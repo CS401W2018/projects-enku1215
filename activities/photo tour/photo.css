@@ -19,6 +19,9 @@ main.two{
    background-repeat: no-repeat;
    background-size: 300px 200px;
 }
+main.four{
+   width:300px 200px;
+}
 .three{
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
