@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: aquamarine;
+    width: 300px;
+    margin: 50px 3px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+header h1{
+    margin:0;
+}
+figure{
+    border: thin solid black
+}
+nav{
+    background-color: bisque;
+    height: 50px;
+}
