@@ -11,17 +11,18 @@ body{
    color:black
 }
 .second{
-   color:aliceblue;
-}
+   color:aliceblue;}
 main.two{
    background-image:url("pcc.jpg");
    background-position: right;
    background-repeat: no-repeat;
    background-size: 300px 200px;
 }
-main.four{
-   width:300px 200px;
-}
+
 .three{
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.list{
+   list-style-image: url("palm.jpg")
 }
