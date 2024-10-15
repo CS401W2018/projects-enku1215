@@ -1,0 +1,82 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-position: left;
+    background-color:white;
+     /* background-repeat: no-repeat; */
+ }
+header{
+    width:900px;
+    height:100px;
+    background-color:orange;
+    background-clip:padding-box;
+    background-origin:border-box;
+    background-image: url(ghost.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 80px 80px;
+}
+
+ 
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+ }
+ 
+ nav li{
+     display: inline;
+     margin: 0;
+     padding:0;
+ }
+ nav a {
+   display: block;
+   padding:10px 30px;
+   color:orange;
+   float: left;
+  }
+  
+nav a:hover{
+   color:orange; 
+   background-color: white;
+ }
+
+ #image{
+    width:auto;
+    height:auto;
+    margin-top:1px;
+    margin-bottom:90px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 3px 4px;
+    border-radius:10px;
+    border:thin solid white;
+    float:left;
+    box-shadow: 3px 3px;
+    text-align: center;
+ }
+ #image img{
+    width: 450px;
+ }
+ .wrapper{
+    background-color:black;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .clear{
+    clear:both;
+ }
+ .center{
+   text-align:center;
+   font-size: 24pt;
+   font-weight: 100;
+   line-height: 10px;
+   text-transform: capitalize;
+   text-shadow:1px 2px orange;
+ }
+ .fontfamily{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 

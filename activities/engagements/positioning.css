@@ -28,17 +28,19 @@ nav a {
  padding:10px 30px;
  background-color:burlywood;
  color: white;
- border-bottom: thin solid white;
- float: left;
+ border-bottom: thin solid;
+ box-shadow: 3px 3px;
+ float:left;
 }
 
 nav a:hover{
-  color: blue; 
+  color:chocolate; 
   background-color: white;
 }
 #flower{
     width: 250px;
     border:thin solid black;
+    box-shadow: 5px 5px;
     float:right;
 }
 #flower img{
