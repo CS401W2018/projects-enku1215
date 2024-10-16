@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color:blue;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+    background-color:aqua;
+    border:thin solid black;
+}
+.itemA{
+    grid-area: rside;
+}
+
+.itemB{
+    grid-area: footer;
+}
