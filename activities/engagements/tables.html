@@ -16,10 +16,13 @@
         <a href="#">Link</a>
     </nav>
     <main>
-      <table border="1">
+      <table class="schedule">
+            <caption>
+                My Fall 2024 schedule
+            </caption>
            <thead>
               <tr>
-                  <th>Dep</th><th>Number</th><th>Time</th><th>Location</th><th>Credits</th>
+                  <th>Dept.</th><th>Number</th><th>Time</th><th>Location</th><th>Credits</th>
               </tr>
           </thead>
           <tbody>
@@ -47,6 +50,18 @@
             <td headers="total-credits">12</td>
           </tfoot>
       </table>
+      <h2>Questions</h2>
+      <p>
+          Why don't we use the border property?- Once we use border, we cannot take it out. We will stick with a border. Also, border is an old design, 
+          if we want to have modern design, it is better to use CSS. It is more flexible to create a design you want.  
+       <p> 
+       <p>
+          What is the easiest way to color every other row a different color? - Using the following tag in CSS we can change the color of each row 
+          ".schedule tbody tr:nth-child(even or odd)", "nth-child()".
+      </p>
+       <p> 
+          When should we use a table? - When we want to present clear data, we can use table. Tables make look your data easy to read for screen readers. 
+       </p>
     </main>
 </body>
 </html>
