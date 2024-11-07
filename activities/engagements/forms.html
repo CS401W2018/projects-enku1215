@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+            Welcome to Enku's page! 
+    </header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    <main>
+        <h2>
+            Form Creation
+        </h2>
+        <form action="processing.html" method="post">
+           First Name: <input type="text" name="first" value="Joe" required="required"><br>
+           Last Name: <input type="text" name="last" placeholder="Last Name"><br>
+           Password: <input type="password" name="pass"><br>
+           <input type="checkbox" name="remember" checked> Remember me<br> 
+           Grade:<br>
+           <input type="radio" name="grade" value="Freshman">Freshman<br>
+           <input type="radio" name="grade" value="Freshman">Sophomore<br>
+           <input type="radio" name="grade" value="Freshman">Junior<br>
+           <input type="radio" name="grade" value="Freshman" checked>Senior<br>
+           <select name="state" id="state">
+             <option value="blank"></option>
+             <option value="Hawaii">Hawaii</option>
+             <option value="Alaska">Alaska</option>
+             <option value="New York">New York</option>
+           </select><br>
+           <textarea name="comment" id="">Comment</textarea>
+           <input type="submit">
+       </form>
+        <p>
+            The form tag has an "action" attribute. What does it do? - These two attributes are used to send datas to the server. 
+            The action attribute specifies where the data should be sent for processing. 
+        </p>
+        <p>
+            The form tag has a "method" attribute. What does it do? - Method attribute specifies how to send the data to the server. 
+        </p>
+        <p>
+            What is the difference between a "POST" and a "GET"? - We use "get" when we are reading information, 
+            "post" is for when you are adding information or changing your informaion. 
+        </p>
+    </main>
+    <footer>
+        &copy;2024 Enkhchimeg 
+    </footer>
+</body>
+</html>
