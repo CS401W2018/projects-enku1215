@@ -2,6 +2,60 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
+.form-row, .check-row{
+    display: flex;
     margin: 10px;
+    gap: 10px;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+
+fieldset{
+    box-shadow: 3px 3px 3px black;
+    background-color:burlywood;
+    padding:10px
+}
+
+legend{
+    border: thin solid black;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+}
+
+input:not([type='submit']), select, textarea {
+    padding: 1px;
+    border-radius: 3px;
+    font-size: 1.5cm;
+    background-color: antiquewhite;
+    color: black;
+}
+
+input:not([type='submit']):focus, select:focus, textarea:focus {
+    background-color: white;
+}
+
+input[type='submit'] {
+    padding: 10px;
+    background-color:brown;
+    color: white; 
+    border-radius: 3px; 
+    box-shadow: 3px 3px 1px black;
+}
+.spacer {
+    width: 150px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-row, .check-row {
+        flex-direction: column;
+    }
+
+    .form-row label, .spacer {
+        text-align: left;
+    }
 }
