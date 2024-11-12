@@ -4,7 +4,7 @@ body{
 
 .form-row, .check-row{
     display: flex;
-    margin: 10px;
+    margin: 10px 0;
     gap: 10px;
 }
 
