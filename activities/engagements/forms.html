@@ -12,7 +12,7 @@
         <h2>Form Creation</h2>
     </header>
     <main>
-        <form action="processing.html" method="post">
+        <form action="processing.html" method="post" id="myForm">
             <fieldset>
                 <legend>
                      Sign Up
@@ -57,16 +57,34 @@
               </div>
            </fieldset>
        </form>
-        <p>
-            What are different ways to style your form? - We can use CSS layouts, Flex, and Grid. 
-        </p>
-        <p>
-            Why does the professor like to use flex? - Because flex is more flexible and responsive. 
-            It makes it easier to manage the form. Other than that, it will make your forms look more professional and modern.  
-        </p>
-    </main>
-    <footer>
-        &copy;2024 Enkhchimeg 
-    </footer>
+       <p>What is JavaScript? How did it get its name? - It is a programming language. The name is from Java language inside the browser. It makes the web more interactive. They changed the "LiveScript" to "Javascript".</p>
+       <p>What are the two ways you can run JavaScript? - You can run JavaScript in your browser or on the server. Javascript can be used in your browser for immediate interaction using "script" tag. 
+        Javascript also can be executed on a separate server using a Node.js.  </p>
+       <p>What was the most popular front-end js library? - jQuery </p>
+       <p>What is the most popular front-end js library today? - ReactJC is what FB uses make our webpage very interactive. React Native is mobile app.  </p>
+   </main>
+     <footer>
+         &copy;2024 Enkhchimeg 
+     </footer>
+     <script>
+         document.getElementById('myForm').addEventListener('submit',function(event) {
+             event.preventDefault();
+             const firstName = document.getElementById('firstNameInput').value;
+             const lastName = document.getElementById('lastNameInput').value;
+             if (!firstName || !lastName){
+                 alert("First name and last name are required!")
+                 return;
+             }
+             const formData={
+                firstNameInput: firstName,
+                lastNameInput: lastName
+             }
+             console.log(formData)
+             /*if (!age || age < 18) {
+                 alert("You must be at least 18 to sign-up!")
+             }*/
+             alert("You submitted the form!");
+         })
+     </script>
 </body>
 </html>
