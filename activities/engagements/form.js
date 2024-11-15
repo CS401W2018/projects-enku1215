@@ -6,15 +6,15 @@ document.getElementById('myForm').addEventListener('submit',function(event) {
         alert("First name and last name are required!");
         return;
     }
-    const formData={
+    const formData = {
        firstNameInput: firstName,
        lastNameInput: lastName,
        password: document.getElementById('password').value,
        state: document.getElementById('state').value
     };
     const xhr = new XMLHttpRequest();
-    xhr.open("POST" , "submit.js" , true);
-    xhr.setRequestHeader("Content Type", "application/json;charset=UTF-8")
+    xhr.open("POST" , "submit.json" , true);
+    xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.onreadystatechange = function () {
        if(xhr.readyState === 4 && xhr.status ===200) {
           /* const response = JSON parse{xhr.responseText}*/
@@ -25,9 +25,9 @@ document.getElementById('myForm').addEventListener('submit',function(event) {
     };
 
        xhr.send(JSON.stringify(formData));
-      alert("You submitted the form!");
-     console.log(formData)
-})
+      alert('Success');
+      console.log(formData);
+});
 
     /*if (!age || age < 18) {
         alert("You must be at least 18 to sign-up!")
