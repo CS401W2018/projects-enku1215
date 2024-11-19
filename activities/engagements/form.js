@@ -17,7 +17,8 @@ document.getElementById('myForm').addEventListener("submit",function(event) {
        age: age,
        password: document.getElementById('password').value,
        state: document.getElementById('state').value
-    };
+    }
+    
     const xhr = new XMLHttpRequest();
     xhr.open("POST" , "submit.json" , true);
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
@@ -32,7 +33,6 @@ document.getElementById('myForm').addEventListener("submit",function(event) {
     };
 
        xhr.send(JSON.stringify(formData));
-      /*alert('Success');*/
       console.log(formData);
 });
 
