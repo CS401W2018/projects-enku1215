@@ -12,6 +12,7 @@
         <h2>Form Creation</h2>
     </header>
     <main>
+        <div id="message"></div>
         <form action="processing.html" method="post" id="myForm">
             <fieldset>
                 <legend>
@@ -38,6 +39,10 @@
                   <label><input type="radio" name="gender" value="male">Male</label>
                   <label><input type="radio" name="gender" value="female" checked>Female</label>
               </div>
+              <div class="form-row">
+                <div class="spacer">Age:</div>
+                <label><input type="number" name="age" id="age"></label>
+              </div>
                <div class="form-row">
                    <label for="state">State:</label>
                    <select name="state" id="state">
@@ -57,13 +62,6 @@
               </div>
            </fieldset>
        </form>
-       <p>What is DNS? - It means Domain Name System. It connects web browsers with websites.</p>
-       <p>How do you get a domain name? - Domain name is the name of our website and a phonebook on the internet. It is the part of URL before .org or .com. People will research our website using the domain name.</p>
-       <p>What is SSL? i SSL stands for Secure Sockets Layer which is certificate that gives our webpage creditablity of aunthencity. It gives more security to your website.</p>
-       <p> How do you get a security certificate? - We buy the certificate with our domain name.   </p>
-       <p>How does SSL work? - The browser sends a message to the server with SSL and encryption algorithms, and a random number, and then the server responds with the same message with SSL, another encryption algorythm and random number, and the certificate. Connecting through C.A. the website we are switch their shared keys. It help them to maintain security on the web. 
-          We give C.A. them our public key and the other website give them their public key too.</p>
-       <p>How do you stay safe online. - To stay safe online we can use secure website 'https:' instead of 'http:'</p>
    </main>
      <footer>
          &copy;2024 Enkhchimeg 
