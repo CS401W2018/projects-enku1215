@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#flower{
+    width: 350px;
+    margin: 20px 100px;
+    border: thin solid black;
+    box-shadow: 3px 3px 5px black(200, 200, 200, 50%);
+    transform: rotate(6deg);
+}
+
+#flower img{
+    width: 100%;
+}
+.btn{
+    display: block;
+    padding: 10px;
+    color:blue;
+    background-color: black;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: gray;
+}
+
