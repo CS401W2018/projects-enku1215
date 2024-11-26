@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Projectv</title>
+    <link rel="stylesheet" href="final.css" media="screen">
+</head>
+<body>
+    <header>
+        <h1>
+          The Mongolian Cultural Center
+        </h1>
+      </header>
+    <nav>
+        <a href="page1.html" class="btn">Home</a>
+        <a href="page2.html" class="btn">Solution</a>
+        <a href="page3.html" class="btn">Market</a>
+        <a href="page4.html" class="btn">Packages</a>
+        <a href="page5.html" class="btn">Financials</a>
+        <a>Membership</a>
+        <a href="page7.html" class="btn">Team Members</a>
+     </nav>
+    <main>
+        <div id="message"></div>
+        <form action="processing.html" method="POST" id="myForm">
+            <fieldset>
+                <legend>
+                     Sign Up
+                </legend>
+              <div class="form-row">
+                 <label for="firstNameInput">First Name:</label> 
+                 <input type="text" name="first" id="firstNameInput" placeholder="First Name" required>
+              </div> 
+               <div class="form-row">
+                  <label for="lastNameInput">Last Name:</label>
+                  <input type="text" name="last"  id="lastNameInput" placeholder="Last Name" required>
+                </div>  
+               <div class="form-row">
+                  <label for="password">Password:</label>
+                  <input type="password" name="password" id="password">
+               </div> 
+             <div class="check-row">
+                  <div class="spacer"></div>
+                 <label><input type="checkbox" name="remember" checked>Remember me</label>
+              </div>
+              <div class="check-row">
+                  <div class="spacer">Gender:</div>
+                  <label><input type="radio" name="gender" value="male">Male</label>
+                  <label><input type="radio" name="gender" value="female" checked>Female</label>
+              </div>
+              <div class="form-row">
+                <div class="spacer">Age:</div>
+                <label><input type="number" name="age" id="age"></label>
+              </div>
+               <div class="form-row">
+                   <label for="state">State:</label>
+                   <select name="state" id="state">
+                      <option value="blank">Choose</option>
+                      <option value="Hawaii" selected>Hawaii</option>
+                      <option value="Alaska">Alaska</option>
+                      <option value="New York">New York</option>
+                   </select>
+                </div>
+                <div class="form-row">
+                   <label for="comment">Comment</label>
+                   <textarea name="comment" id="comment">Comment</textarea>
+               </div>
+               <div class="form-row">
+                  <div class="spacer"></div>
+                     <input type="submit" value="Submit">
+              </div>
+           </fieldset>
+       </form>
+   </main>
+     <footer>
+         &copy;2024 Enkhchimeg 
+     </footer>
+     <script src="finalform.js"></script>
+</body>
+</html>
