@@ -32,7 +32,7 @@ nav a {
 }
 .btn{
     transition-property: background-color;
-    transition-duration: 0.3s ease-in-out;
+    transition-duration: 0.3s;
 }
 
 .btn:hover {
