@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    background-color: chocolate;
+}
+nav { 
+   background-color:rgb(131, 203, 205); 
+   display: flex;
+   justify-content: space-around;
+}
+nav a {
+    display: block;
+    padding: 10px 5px; 
+    color:white;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 200px;
+    border: thin solid black;
+    box-shadow: 2px 2px 5px rgba(50, 50, 50, 50%);
+    margin: 5px;
+}
+.image img {
+    width: 100%;
+}
+@media only screen and (max-width: 650px) {
+   nav{
+    flex-direction: column;
+   }
+
+   nav a{
+    border-bottom: thin solid white;
+   }
+   .row{
+    flex-wrap: wrap;
+   }
+  .image {
+    width: 100%;
+  }
+  .image-main{
+    order: -1;
+  }
+}
+    
