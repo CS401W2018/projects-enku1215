@@ -21,7 +21,7 @@
         <a>Membership</a>
         <a href="page7.html" class="btn">Team Members</a>
      </nav>
-    <main>
+    <main id="form">
         <div id="message"></div>
         <form action="processing.html" method="POST" id="myForm">
             <fieldset>
@@ -38,7 +38,7 @@
                 </div>  
                <div class="form-row">
                   <label for="password">Password:</label>
-                  <input type="password" name="password" id="password">
+                  <input type="password" name="password" id="password" required>
                </div> 
              <div class="check-row">
                   <div class="spacer"></div>
@@ -54,21 +54,20 @@
                 <label><input type="number" name="age" id="age"></label>
               </div>
                <div class="form-row">
-                   <label for="state">State:</label>
-                   <select name="state" id="state">
+                   <label for="state">Country:</label>
+                   <select name="state" id="state" onchange="toggleOtherField()">
                       <option value="blank">Choose</option>
-                      <option value="Hawaii" selected>Hawaii</option>
-                      <option value="Alaska">Alaska</option>
-                      <option value="New York">New York</option>
+                      <option value="Mongolia" selected>Mongolia</option>
+                      <option value="South Korea">South Korea</option>
+                      <option value="China">China</option>
+                      <option value="USA">USA</option>
+                      <option value="Japan">Japan</option>
+                      <option value="Others">Other</option>
                    </select>
                 </div>
-                <div class="form-row">
-                   <label for="comment">Comment</label>
-                   <textarea name="comment" id="comment">Comment</textarea>
-               </div>
                <div class="form-row">
                   <div class="spacer"></div>
-                     <input type="submit" value="Submit">
+                     <input type="submit" value="Create Account">
               </div>
            </fieldset>
        </form>

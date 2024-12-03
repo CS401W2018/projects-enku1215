@@ -2,8 +2,8 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 header {
-    background-color:black;
-    color: white;
+    color: black;
+    background-color:rgb(188, 30, 30);
 }
 #myVideo{
     right: 0;
@@ -19,14 +19,14 @@ header {
     height: 300px;
 }*/
 nav { 
+    background-color: darkblue;
     display: flex;
-    background-color:blue;
     justify-content: space-around;
     text-align: center;
 }
 
 nav a {
-    padding: 10px 5px; 
+    padding: 10px 2px; 
     color:white;
     text-decoration: none;
 }
@@ -36,8 +36,8 @@ nav a {
 }
 
 .btn:hover {
-    background-color:whitesmoke;
-    color:orange; 
+    background-color:white;
+    color:black; 
 }
 .paragraph{
     width: 90%
@@ -50,13 +50,18 @@ nav a {
 }
 
 .image {
-    width: 800px;
+    width: 400px;
     border: thin solid black;
     box-shadow: 2px 2px 5px rgba(50, 50, 50, 50%);
     margin: 5px;
 }
 .image img {
+    display: flex;
+    flex-direction: row;
     width: 100%;
+}
+#form{
+    margin: 20px;
 }
 .form-row, .check-row{
         display: flex;
@@ -65,19 +70,19 @@ nav a {
     }
     
     .form-row label {
-        width: 150px;
+        width: 100px;
         text-align: right;
     }
     
     fieldset{
         box-shadow: 3px 3px 3px black;
-        background-color:burlywood;
+        background-color:white;
         padding:10px
     }
     
     legend{
         border: thin solid black;
-        background-color: orange;
+        background-color:rgb(188, 30, 30);
         padding: 10px;
         color: white;
     }
@@ -86,7 +91,7 @@ nav a {
         padding: 1px;
         border-radius: 3px;
         font-size: 1.5cm;
-        background-color: antiquewhite;
+        background-color:white;
         color: black;
     }
     
@@ -96,13 +101,13 @@ nav a {
     
     input[type='submit'] {
         padding: 10px;
-        background-color:brown;
+        background-color:darkblue;
         color: white; 
         border-radius: 3px; 
         box-shadow: 3px 3px 1px black;
     }
     .spacer {
-        width: 150px;
+        width: 100px;
         text-align: right;
     }
     .schedule {
@@ -118,7 +123,7 @@ nav a {
     }
     
     .schedule thead, .schedule tfoot {
-        background-color:orange;
+        background-color:rgb(245, 205, 5);
         color: white;
     }
     
@@ -145,12 +150,44 @@ nav a {
   .image-main{
     order: -1;
   }
-  .form-row, .check-row {
-    flex-direction: column;
+  .schedule {
+    width:100%;
+}
+.kids{
+    font-size: smaller;
+}
+
+.schedule td , .schedule th {
+ width:90%
+}
+
+.schedule thead, .schedule tfoot {
+    width:90%
+}
+
+fieldset {
+    width: 90%;
+    margin:auto;
+    padding: 10px;
+}
+
+.form-row, .check-row {
+    flex-direction: column; 
+    width: 100%;
 }
 
 .form-row label, .spacer {
-    text-align: left;
+    width: 100%; 
+    text-align: left; 
+}
+
+input:not([type='submit']), select, textarea {
+    width: 100%; 
+    font-size: 1cm; 
+}
+
+form input[type='submit'] {
+    width: 100%; 
 }
 }
 

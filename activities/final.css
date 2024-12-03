@@ -1,0 +1,31 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+    background-color: bisque;
+    color: brown ;
+}
+
+nav a{
+    display:block;
+    text-align:left;
+}
+
+#link{
+    margin: 20px;
+    padding: 2px 3px;
+    border: thin solid brown;
+    background-color: orange;
+    box-shadow: 2px, 3px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.part2{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around
+}
