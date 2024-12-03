@@ -32,7 +32,7 @@ nav a {
 }
 .btn{
     transition-property: background-color;
-    transition-duration: 0.3s ease-in-out;
+    transition-duration: 0.3s;
 }
 
 .btn:hover {
@@ -50,7 +50,8 @@ nav a {
 }
 .page3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin:10px;
 }
 .image {
     width: 800px;
