@@ -108,6 +108,13 @@ nav a {
         width: 150px;
         text-align: right;
     }
+    .title{
+        font-size: larger;
+        margin: 10px;
+    }
+    .list{
+        font-style: oblique;
+    }
     .schedule {
         margin: 5px auto;
         border: thin solid black;
