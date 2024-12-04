@@ -43,6 +43,10 @@ nav a {
     width: 90%
 }
 
+.current{
+    color: brown;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -146,6 +150,10 @@ nav a {
 
    nav a{
     border-bottom: thin solid white;
+   }
+
+   header video{
+    width:100%;
    }
    .row{
     flex-wrap: wrap;
