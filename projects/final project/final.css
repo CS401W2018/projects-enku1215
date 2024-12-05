@@ -101,6 +101,9 @@ footer{
         padding:10px;
         background-color:;
         border-radius: 10px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     legend{
@@ -114,7 +117,7 @@ footer{
     input:not([type='submit']), select, textarea {
         padding: 1px;
         border-radius: 3px;
-        font-size: 1.0cm;
+        font-size: 0.6cm;
         color:black;
     }
     
@@ -208,11 +211,14 @@ footer{
 }
 
 input:not([type='submit']), select, textarea {
-    width: 100%; 
-    font-size: 1cm; 
+    width: 98%; 
+    font-size: 0.8cm; 
 }
 
 form input[type='submit'] {
     width: 100%; 
+}
+text-area{
+
 }
 }
