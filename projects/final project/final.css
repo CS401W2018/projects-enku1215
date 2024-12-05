@@ -84,31 +84,37 @@ footer{
         display: flex;
         margin: 10px 0;
         gap: 10px;
+        font-size: medium;
+        color: rgb(104, 97, 97);
     }
     
     .form-row label {
         width: 150px;
         text-align: right;
     }
-    
+.form-row select{
+    font-size: 0.4cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
     fieldset{
-        box-shadow: 3px 3px 3px rgb(92, 88, 88);
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding:10px;
+        background-color:;
+        border-radius: 10px;
     }
     
     legend{
-        border: thin solid white;
-        background-color: brown;
+        border: thin solid black;
+        background-color:white;
         padding: 10px;
-        color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px black;
     }
     
     input:not([type='submit']), select, textarea {
         padding: 1px;
         border-radius: 3px;
         font-size: 1.0cm;
-        background-color: rgb(252, 234, 201);
         color:black;
     }
     
@@ -117,10 +123,10 @@ footer{
     }
     
     input[type='submit'] {
-        padding: 10px;
-        background-color:brown;
+        padding: 10px 20px;
+        background-color:orange;
         color:white;
-        border-radius: 3px; 
+        border-radius: 10px; 
         box-shadow: 2px 2px 2px black;
     }
     .spacer {
