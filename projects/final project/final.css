@@ -12,25 +12,28 @@ header {
     min-width: 100%;
     max-height: 300px;
   }
-/*.background{
-    background-image: url(back.jpeg);
-    background-repeat: no-repeat;
-    background-position:center;
-    width:100%;
-    height: 300px;
-}*/
+
 nav { 
     display: flex;
     justify-content: space-around;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px solid transparent;
 }
 
 nav a {
     color:rgb(209, 164, 82);
     padding: 10px 5px; 
     text-decoration: none;
+    float: left;
+    border-bottom: 3px solid transparent;
 }
+
+.current{
+    color: brown;
+    border-bottom: 3px solid brown;
+}
+
 .btn{
     transition-property: background-color;
     transition-duration: 0.3s;
@@ -40,6 +43,12 @@ nav a {
     background-color:beige;
     color:orange; 
 }
+footer{
+    margin-top: 30px;
+    background-color: orange;
+    text-align: center;
+}
+
 .paragraph{
     display: block;
     margin-left: auto;
@@ -47,11 +56,7 @@ nav a {
     width: 90%;
 }
 
-.current{
-    color: brown;
-}
-
-.row {
+#row {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -67,10 +72,15 @@ nav a {
     border: thin solid black;
     box-shadow: 2px 2px 5px rgba(50, 50, 50, 50%);
     margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .image img {
     width: 100%;
 }
+
 .form-row, .check-row{
         display: flex;
         margin: 10px 0;
@@ -156,6 +166,10 @@ nav a {
    nav a{
     border-bottom: thin solid white;
    }
+
+.current{
+    width: 100%;
+}
 
    header video{
     width:100%;
