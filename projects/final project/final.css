@@ -55,11 +55,12 @@ footer{
     width: 90%;
 }
 
-#row {
+#row, .row {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
+
 .page3 {
     display:flex;
     justify-content: space-around;
@@ -80,13 +81,10 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-.image img {
+.image img, .image1 img{
     width: 100%;
 }
 
-.image1 img{
-    width: 100%;
-}
 .form-row, .check-row{
         display: flex;
         margin: 10px 0;
@@ -106,7 +104,6 @@ footer{
     fieldset{
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding:10px;
-        background-color:;
         border-radius: 10px;
         max-width: 600px;
         margin-left: auto;
