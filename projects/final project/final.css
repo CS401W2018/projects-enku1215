@@ -62,7 +62,7 @@ footer{
 }
 .page3 {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin:10px;
 }
 
@@ -71,9 +71,6 @@ footer{
     border: thin solid black;
     box-shadow: 2px 2px 5px rgba(50, 50, 50, 50%);
     margin: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .image img {
@@ -113,7 +110,10 @@ footer{
         border-radius: 5px;
         box-shadow: 2px 2px black;
     }
-    
+    .link{
+        font-style: italic;
+        font-size: 0.4cm;
+    }
     input:not([type='submit']), select, textarea {
         padding: 1px;
         border-radius: 3px;
