@@ -53,10 +53,11 @@ nav a {
     text-align: center;
 }
 .page3 {
-    display: flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content: space-between;
     margin:10px;
 }
+
 .image {
     width: 800px;
     border: thin solid black;
@@ -155,16 +156,17 @@ nav a {
    header video{
     width:100%;
    }
-   .row{
+.page3{
     flex-wrap: wrap;
    }
-  .image {
+.image {
     width: 100%;
   }
-  .image-main{
+.image-main{
     order: -1;
   }
- .fieldset {
+
+.fieldset {
     width: 90%;
     margin:auto;
     padding: 10px;
