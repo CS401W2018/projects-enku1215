@@ -23,8 +23,6 @@ nav {
 nav a {
     color:rgb(209, 164, 82);
     padding: 10px 5px; 
-    text-decoration: none;
-    float: left;
     border-bottom: 3px solid transparent;
 }
 
