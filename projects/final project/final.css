@@ -4,7 +4,6 @@ body {
 header {
     background-color:orange;
     color: white;
-    text-shadow: 0.3px 0.5px;
 }
 #myVideo{
     right: 0;
@@ -18,7 +17,7 @@ nav {
     justify-content: space-around;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 3px solid transparent;
+    margin-bottom: 30px;
 }
 
 nav a {
@@ -93,14 +92,14 @@ footer{
     }
     
     fieldset{
-        box-shadow: 3px 3px 3px black;
-        background-color:burlywood;
-        padding:10px
+        box-shadow: 3px 3px 3px rgb(92, 88, 88);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding:10px;
     }
     
     legend{
-        border: thin solid black;
-        background-color: orange;
+        border: thin solid white;
+        background-color: brown;
         padding: 10px;
         color: white;
     }
@@ -108,9 +107,9 @@ footer{
     input:not([type='submit']), select, textarea {
         padding: 1px;
         border-radius: 3px;
-        font-size: 1.5cm;
-        background-color: antiquewhite;
-        color: black;
+        font-size: 1.0cm;
+        background-color: rgb(252, 234, 201);
+        color:black;
     }
     
     input:not([type='submit']):focus, select:focus, textarea:focus {
@@ -120,9 +119,9 @@ footer{
     input[type='submit'] {
         padding: 10px;
         background-color:brown;
-        color: white; 
+        color:white;
         border-radius: 3px; 
-        box-shadow: 3px 3px 1px black;
+        box-shadow: 2px 2px 2px black;
     }
     .spacer {
         width: 150px;
@@ -153,7 +152,7 @@ footer{
     }
     
     .schedule tbody tr:nth-child(even) {
-        background-color:bisque;
+        background-color:wheat;
     }
 @media only screen and (max-width: 650px) {
    body{
@@ -168,7 +167,9 @@ footer{
    }
 
 .current{
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
    header video{
