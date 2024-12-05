@@ -4,6 +4,7 @@ body {
 header {
     background-color:orange;
     color: white;
+    text-shadow: 0.3px 0.5px;
 }
 #myVideo{
     right: 0;
@@ -22,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 nav a {
