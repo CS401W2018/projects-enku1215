@@ -42,7 +42,7 @@ nav a {
 }
 footer{
     margin-top: 30px;
-    background-color: orange;
+    background-color: rgb(47, 47, 199);
     text-align: center;
 }
 
@@ -53,9 +53,8 @@ footer{
     width: 90%;
 }
 
-#row, .row {
-    display: flex;
-    justify-content: space-between;
+.row {
+    display: block;
     text-align: center;
 }
 
@@ -64,15 +63,14 @@ footer{
     justify-content: space-around;
     margin:10px;
 }
-
 .image {
-    width: 800px;
+    width:600px;
     border: thin solid black;
     box-shadow: 2px 2px 5px rgba(50, 50, 50, 50%);
     margin: 5px;
 }
 .image1{
-    width: 800px;
+    width:600px;
     border: thin solid black;
     box-shadow: 2px 2px 5px rgba(50, 50, 50, 50%);
     margin: 5px;
@@ -226,8 +224,5 @@ input:not([type='submit']), select, textarea {
 
 form input[type='submit'] {
     width: 100%; 
-}
-text-area{
-
 }
 }
