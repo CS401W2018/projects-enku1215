@@ -61,7 +61,8 @@ footer{
 .page3 {
     display:flex;
     justify-content: space-around;
-    margin:10px;
+    margin:20px;
+    text-align:center;
 }
 .image {
     width:600px;
@@ -189,6 +190,7 @@ footer{
    }
 .page3{
     flex-wrap: wrap;
+    margin:10px;
    }
 .image {
     width: 100%;
