@@ -14,7 +14,7 @@ header {
 
 nav { 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 30px;
@@ -57,7 +57,12 @@ footer{
     display: block;
     text-align: center;
 }
-
+#row{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    height: auto; 
+}
 .page3 {
     display:flex;
     justify-content: space-around;
